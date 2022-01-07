@@ -43,9 +43,12 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+        This is my story
+      </SectionText>
+    </Section>
   );
 };
 
